@@ -151,7 +151,7 @@ package games {
   object MultiDeck {
     def apply(cardSetsCount: Int) = {
       new Deck(
-        scala.util.Random.shuffle((for (cardSet <- 1 to cardSetsCount) yield SortedStandardCardsSet()).flatten.toList))
+        scala.util.Random.shuffle((for (_ <- 1 to cardSetsCount) yield SortedStandardCardsSet()).flatten.toList))
     }
   }
 }
