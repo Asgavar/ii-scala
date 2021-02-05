@@ -1,4 +1,4 @@
-object Lab10 {
+object Lab09 {
   def main(args: Array[String]): Unit = {
     import cards._
     import deck._
