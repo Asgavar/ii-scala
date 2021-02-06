@@ -1,0 +1,9 @@
+@(student: models.Student)
+
+@main(s"Student #${student.index}") {
+    <ul>
+        <li>Index: @student.index</li>
+        <li>Name: @student.name</li>
+        <li>Year: @student.year</li>
+    </ul>
+}

@@ -1,0 +1,9 @@
+@(students: List[models.Student])
+
+@main("All students") {
+    <ul>
+    @for(student <- students) {
+        <li>@student.name</li>
+    }
+    </ul>
+}

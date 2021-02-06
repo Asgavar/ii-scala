@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+}
+
+.uwr-logo {
+    float: left;
+    width: 250px;
+    margin-right: 25px;
+}
+
+.page-title {
+    float: left;
+}

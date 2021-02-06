@@ -1,0 +1,15 @@
+@(title: String)(content: Html)
+
+<html>
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/main.css")" />
+    </head>
+    <body>
+        <navbar class="header">
+            <img class="uwr-logo" src="@routes.Assets.versioned("images/uwr.png")" />
+            <h2 class="page-title"> @title </h2>
+        </navbar>
+        @content
+    </body>
+</html>
